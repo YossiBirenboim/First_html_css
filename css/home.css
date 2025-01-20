@@ -57,6 +57,7 @@ a {
 }
 a:hover{
       opacity: 50%;
+      border: 5px solid var(--letters-color);
       
 }
 .topNav a {

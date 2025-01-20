@@ -50,6 +50,11 @@ body {
 
 a {
     text-decoration: none;
+    transition: 1000ms;
+}
+a:hover{
+      opacity: 50%;
+      
 }
 
 .topNav a {
