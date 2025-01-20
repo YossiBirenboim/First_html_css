@@ -1,0 +1,135 @@
+:root {
+    --primary-color:rgb(81, 68, 70);
+    --secondary-color:rgb(198, 144, 99);
+    --letters-color:rgb(238, 221, 215);
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary-color);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    
+
+}
+
+.burger{
+    display: none;
+}
+
+.header {
+    background-color: var(--secondary-color);
+    position: sticky;
+    top: 0;
+    
+
+}
+
+.header .container {
+    background-color: var(--primary-color);
+    height: 60px;
+    justify-content: space-evenly;
+}
+.logo{
+    flex: 1;
+    margin:0 ;
+}
+.logo image{
+
+    width: 50px;
+}
+.topNav {
+    flex: 2;
+}
+
+a {
+    text-decoration: none;
+}
+/* @media(max-hight: 600px){
+    
+} */
+
+
+
+.topNav a {
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+.main {
+    background-image : url(../galery/cooking_13.jpg) ;
+    background-size: cover;
+    
+    
+}
+.peregraf {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    color:var(--letters-color);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size:x-large;
+    min-height: 1000px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+     
+}
+ul li{
+    margin: 10%;
+}
+.footer{
+    
+}
+
+.footer .container {
+     
+    background-color: var(--primary-color);
+    justify-content: center;
+    
+}
+
+.footer img {
+    margin-right: 30px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    
+}
+.footer a {
+     background-color: var(--secondary-color);
+     color: var(--letters-color);
+     border-radius: 5px;
+     padding: 5px;
+}
+
+
+
+@media (max-width : 600px) {
+    
+    .topNav{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        color: var(--secondary-color);
+    }
+     
+
+}

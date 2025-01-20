@@ -1,0 +1,117 @@
+:root {
+    --primary-color:rgb(81, 68, 70);
+    --secondary-color:rgb(198, 144, 99);
+    --letters-color:rgb(238, 221, 215);
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary-color);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    
+
+}
+
+.header {
+    background-color: var(--secondary-color);
+    position: sticky;
+    top: 0;
+    
+
+}
+
+.header .container {
+    background-color: var(--primary-color);
+    height: 60px;
+    justify-content: space-evenly;
+}
+.logo{
+    flex: 1;
+    margin:0 ;
+}
+
+.topNav {
+    flex: 2.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topNav a {
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+.second-header .container{
+    background-color:var();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.main .container{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url(../galery/coking_3.jpg); */
+    gap: 30px;
+    background-color: var(--letters-color);
+    min-height: 700px;
+}
+.box{
+    color: var(--primary-color);
+    padding: 50px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.box iframe{
+     border: 1px solid rgb(26, 35, 39);
+     
+}
+.footer{
+    
+}
+
+.footer .container {
+     
+    background-color: var(--primary-color);
+    justify-content: center;
+    
+}
+
+.footer img {
+    margin-right: 30px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    
+}
+.footer a {
+     background-color: var(--secondary-color);
+     color: var(--letters-color);
+     border-radius: 5px;
+     padding: 5px;
+}
