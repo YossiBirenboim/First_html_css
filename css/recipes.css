@@ -37,11 +37,15 @@ body {
     justify-content: space-evenly;
 }
 .logo{
-    flex: 1;
+    width: 40%;
     margin:0 ;
 }
+.burger{
+    display: none;
+}
 .topNav {
-    flex: 2.4;
+    width: 60%;
+     
 }
 
 a {
@@ -104,4 +108,17 @@ a {
      color: var(--letters-color);
      border-radius: 5px;
      padding: 5px;
+}
+
+@media (max-width : 600px) {
+    
+    .topNav{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        color: var(--secondary-color);
+    }
+     
+
 }

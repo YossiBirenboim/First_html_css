@@ -2,8 +2,6 @@
     --primary-color: rgb(81, 68, 70);
     --secondary-color: rgb(198, 144, 99);
     --letters-color: rgb(238, 221, 215);
-
-
 }
 
 * {
@@ -44,6 +42,9 @@ body {
     margin: 0;
     width: 40%;
 }
+.burger{
+    display: none;
+}
 
 .topNav {
     /* flex: 1.7; */
@@ -59,6 +60,9 @@ a {
     padding: 5px 10px;
     border-radius: 5px;
     background-color: var(--secondary-color);
+}
+.burger{
+    display: none;
 }
 
 .main .container {
@@ -111,6 +115,13 @@ a {
         width: 80px;
         height: auto;
     }
-     
+    .burger{
+        display: flex;
+        color: var(--letters-color);
+    }
+       
+    .topNav{
+        display: none;
+    }
 
 }
