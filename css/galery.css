@@ -112,7 +112,7 @@ a {
 @media (max-width : 600px) {
     
     .box img {
-        width: 80px;
+        width: 200px;
         height: auto;
     }
     .burger{
