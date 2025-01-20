@@ -46,29 +46,27 @@ body {
    width: 40%;
     margin:0 ;
 }
-.logo image{
 
-    width: 50px;
-}
 .topNav {
    width: 60%;
 }
 
 a {
     text-decoration: none;
+    transition: 1000ms;
 }
-/* @media(max-hight: 600px){
-    
-} */
-
-
-
+a:hover{
+      opacity: 50%;
+      
+}
 .topNav a {
     color: var(--primary-color);
     padding: 5px 10px;
     border-radius: 5px;
     background-color: var(--secondary-color);
+    transition: 1000ms;
 }
+ 
 .main {
     background-image : url(../galery/cooking_13.jpg) ;
     background-size: cover;
